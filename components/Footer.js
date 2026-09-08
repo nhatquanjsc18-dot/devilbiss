@@ -5,8 +5,11 @@ export default function Footer() {
     <footer className="bg-ink text-white/70">
       <div className="container-page grid grid-cols-1 gap-10 py-16 md:grid-cols-3">
         <div>
-          <span className="mb-4 block font-display text-lg font-bold uppercase tracking-wide text-white">
+          <span className="mb-1 block font-display text-lg font-bold uppercase tracking-wide text-white">
             Nhất Quán
+          </span>
+          <span className="mb-4 block text-xs font-semibold uppercase tracking-wide text-white/50">
+            Công Ty Cổ Phần Công Nghiệp Nhất Quán
           </span>
           <p className="text-sm leading-relaxed">
             Nhà phân phối chính hãng thiết bị phun sơn (Devilbiss, Binks, Ransburg,
