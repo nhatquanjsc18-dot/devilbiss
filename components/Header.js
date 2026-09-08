@@ -19,8 +19,12 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-ink text-white">
       <div className="container-page flex items-center justify-between py-4">
         <Link href="/" className="flex items-center gap-3 shrink-0">
-          <span className="flex h-11 w-11 items-center justify-center rounded bg-gradient-to-br from-primary to-primary-light font-display font-bold text-lg">
-            NQ
+          <span className="flex h-11 w-11 items-center justify-center">
+            <img
+              src="/images/logo-sung.png"
+              alt="Nhất Quán"
+              className="h-full w-full object-contain"
+            />
           </span>
           <span className="leading-tight">
             <span className="block font-display font-bold uppercase tracking-wide text-lg">
