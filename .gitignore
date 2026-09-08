@@ -4,6 +4,7 @@
 # next.js build output
 /.next/
 /out/
+*.zip
 
 # misc
 .DS_Store
