@@ -1,4 +1,5 @@
 import { Inter, Oswald } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -34,6 +35,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="vi" className={`${inter.variable} ${oswald.variable}`}>
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-Y3QGZVYCS1"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Y3QGZVYCS1');
+          `}
+        </Script>
         <Header />
         {children}
         <Footer />
