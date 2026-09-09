@@ -37,6 +37,11 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/nha-phan-phoi" className="hover:text-primary">
+                Nhà phân phối
+              </Link>
+            </li>
+            <li>
               <Link href="/lien-he" className="hover:text-primary">
                 Liên hệ
               </Link>

@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { href: "/#gioi-thieu", label: "Giới thiệu" },
   { href: "/bai-viet", label: "Súng phun sơn" },
   { href: "/phu-kien", label: "Phụ kiện" },
+  { href: "/nha-phan-phoi", label: "Nhà phân phối" },
   { href: "/lien-he", label: "Liên hệ" },
 ];
 
