@@ -75,7 +75,7 @@ export default function NhaPhanPhoiPage() {
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             {REASONS.map((r, i) => (
               <Reveal key={r.no} delay={(i % 2) * 0.08}>
-                <div className="card-outline h-full p-6">
+                <div className="h-full border border-black/10 bg-white p-6 transition-all duration-300 hover:border-primary hover:-translate-y-1">
                   <span className="font-display text-3xl font-bold text-primary/40">
                     {r.no}
                   </span>
