@@ -5,7 +5,6 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const NAV_LINKS = [
-  { href: "/", label: "Trang chủ" },
   { href: "/#gioi-thieu", label: "Giới thiệu" },
   { href: "/bai-viet", label: "Súng phun sơn" },
   { href: "/phu-kien", label: "Phụ kiện" },
@@ -37,12 +36,12 @@ export default function Header() {
           </span>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-5 xl:gap-7">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-semibold uppercase tracking-wide text-white/85 transition-colors hover:text-primary"
+              className="whitespace-nowrap text-xs font-semibold uppercase tracking-wide text-white/85 transition-colors hover:text-primary xl:text-sm"
             >
               {link.label}
             </Link>
