@@ -44,11 +44,6 @@ export default function ContactPage() {
             <Reveal>
               <InfoCard label="Hotline tư vấn kỹ thuật">
                 <p className="text-xl font-bold text-ink">
-                  <a href="tel:0908050415" className="hover:text-primary">
-                    0908 050 415
-                  </a>
-                </p>
-                <p className="text-base font-bold text-ink">
                   <a href="tel:0907811767" className="hover:text-primary">
                     0907 811 767
                   </a>

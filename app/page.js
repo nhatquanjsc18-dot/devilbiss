@@ -194,8 +194,8 @@ export default function HomePage() {
           </Reveal>
           <Reveal delay={0.2}>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:0908050415" className="btn-outline-light">
-                📞 0908 050 415
+              <a href="tel:0907811767" className="btn-outline-light">
+                📞 0907 811 767
               </a>
               <Link
                 href="/lien-he"

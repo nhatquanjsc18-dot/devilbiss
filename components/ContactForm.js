@@ -161,8 +161,8 @@ export default function ContactForm() {
       {status === "error" && (
         <p className="mt-4 text-sm text-red-600">
           Có lỗi xảy ra khi gửi, vui lòng thử lại hoặc gọi hotline{" "}
-          <a href="tel:0908050415" className="font-bold underline">
-            0908 050 415
+          <a href="tel:0907811767" className="font-bold underline">
+            0907 811 767
           </a>
           .
         </p>

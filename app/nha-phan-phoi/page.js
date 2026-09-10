@@ -124,7 +124,7 @@ export default function NhaPhanPhoiPage() {
               <InfoBlock label="Địa chỉ">
                 52-54 Đường số 8, Cư xá Chu Văn An, Phường Bình Thạnh, TP.HCM
               </InfoBlock>
-              <InfoBlock label="Hotline">0908 050 415 – 0907 811 767</InfoBlock>
+              <InfoBlock label="Hotline">0907 811 767</InfoBlock>
               <InfoBlock label="Email">nhatquanjsc18@gmail.com</InfoBlock>
               <InfoBlock label="Website">nhatquan.vn</InfoBlock>
             </div>

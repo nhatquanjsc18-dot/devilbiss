@@ -49,8 +49,8 @@ export default function Header() {
         </nav>
 
         <div className="hidden lg:block">
-          <a href="tel:0908050415" className="btn-solid">
-            📞 0908 050 415
+          <a href="tel:0907811767" className="btn-solid">
+            📞 0907 811 767
           </a>
         </div>
 
@@ -84,8 +84,8 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
-              <a href="tel:0908050415" className="btn-solid mt-3 w-fit">
-                📞 0908 050 415
+              <a href="tel:0907811767" className="btn-solid mt-3 w-fit">
+                📞 0907 811 767
               </a>
             </div>
           </motion.nav>

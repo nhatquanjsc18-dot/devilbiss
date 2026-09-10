@@ -65,12 +65,6 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li>
               📞{" "}
-              <a href="tel:0908050415" className="hover:text-primary">
-                0908 050 415
-              </a>
-            </li>
-            <li>
-              📞{" "}
               <a href="tel:0907811767" className="hover:text-primary">
                 0907 811 767
               </a>
