@@ -5,10 +5,10 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const NAV_LINKS = [
+  { href: "/nha-phan-phoi", label: "Nhà phân phối" },
   { href: "/#gioi-thieu", label: "Giới thiệu" },
   { href: "/bai-viet", label: "Súng phun sơn" },
   { href: "/phu-kien", label: "Phụ kiện" },
-  { href: "/nha-phan-phoi", label: "Nhà phân phối" },
   { href: "/lien-he", label: "Liên hệ" },
 ];
 
