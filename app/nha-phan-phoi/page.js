@@ -2,15 +2,15 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Nhà Phân Phối Devilbiss",
+  title: "Nhà Phân Phối Devilbiss Chính Thức",
   description:
-    "Công ty CP Công nghiệp Nhất Quán là nhà phân phối súng phun sơn Devilbiss (Hoa Kỳ) tại Việt Nam - hàng chính hãng 100%, tư vấn kỹ thuật, hàng có sẵn kho, bảo hành tận nơi.",
+    "Công ty CP Công nghiệp Nhất Quán là nhà phân phối chính thức súng phun sơn Devilbiss (Hoa Kỳ) tại Việt Nam - hàng chính hãng 100%, tư vấn kỹ thuật, hàng có sẵn kho, bảo hành tận nơi.",
 };
 
 const REASONS = [
   {
     no: "01",
-    title: "Nhà Phân Phối",
+    title: "Nhà Phân Phối Chính Thức",
     desc: "Nhất Quán là đơn vị phân phối chính thức súng phun sơn DeVilbiss (Hoa Kỳ, thành lập năm 1888) tại Việt Nam, đảm bảo nguồn hàng chính hãng 100%, có đầy đủ chứng từ CO/CQ.",
   },
   {
@@ -52,11 +52,11 @@ export default function NhaPhanPhoiPage() {
           </p>
           <Reveal>
             <span className="section-label">Đối tác phân phối chính thức</span>
-            <h1 className="heading-lg mb-4">Nhà Phân Phối DeVilbiss</h1>
+            <h1 className="heading-lg mb-4">Nhà Phân Phối DeVilbiss Chính Thức</h1>
           </Reveal>
           <Reveal delay={0.08}>
             <p className="max-w-2xl text-white/65">
-              Nhất Quán JSC là nhà phân phối DeVilbiss tại Việt Nam, mang
+              Nhất Quán JSC là nhà phân phối chính thức DeVilbiss tại Việt Nam, mang
               di sản hơn 130 năm chế tạo thiết bị phun sơn Hoa Kỳ đến với ngành công
               nghiệp sơn sửa ô tô và hoàn thiện bề mặt trong nước.
             </p>
