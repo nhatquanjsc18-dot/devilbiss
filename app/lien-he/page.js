@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata = {
   title: "Liên Hệ",
   description:
-    "Liên hệ Công ty CP Công nghiệp Nhất Quán - nhà phân phối Devilbiss, Binks tại Việt Nam. Hotline tư vấn, email báo giá, văn phòng đại diện và form gửi yêu cầu tư vấn.",
+    "Liên hệ Công ty CP Công nghiệp Nhất Quán - nhà phân phối chính thức Devilbiss, Binks tại Việt Nam. Hotline tư vấn, email báo giá, văn phòng đại diện và form gửi yêu cầu tư vấn.",
 };
 
 const MAP_URL =
@@ -24,7 +24,7 @@ export default function ContactPage() {
           </p>
           <Reveal>
             <span className="section-label">
-              Nhà phân phối Devilbiss &amp; Binks tại Việt Nam
+              Nhà phân phối chính thức Devilbiss &amp; Binks tại Việt Nam
             </span>
             <h1 className="heading-lg mb-4">Liên Hệ Với Nhất Quán</h1>
           </Reveal>
@@ -90,7 +90,7 @@ export default function ContactPage() {
               <div className="border border-dashed border-black/15 bg-white p-6">
                 <p className="text-sm leading-relaxed text-ink/70">
                   <strong className="text-ink">Đại lý &amp; phân phối:</strong> Nhất
-                  Quán là nhà phân phối Devilbiss, Binks tại Việt Nam. Nếu
+                  Quán là nhà phân phối chính thức Devilbiss, Binks tại Việt Nam. Nếu
                   bạn muốn trở thành đại lý hoặc cần báo giá số lượng lớn, hãy gửi
                   thông tin qua form hoặc gọi trực tiếp hotline.
                 </p>
