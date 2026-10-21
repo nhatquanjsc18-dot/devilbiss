@@ -25,8 +25,22 @@ export default function ProductDetailPage({ params }) {
   const prev = products[index - 1];
   const next = products[index + 1];
 
+  const productLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: item.title,
+    image: "https://devilbiss.nhatquan.vn" + item.image,
+    description: item.excerpt,
+    brand: { "@type": "Brand", name: "Devilbiss" },
+    url: "https://devilbiss.nhatquan.vn/bai-viet/" + item.slug + "/",
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd).replace(/</g, "\\u003c") }}
+      />
       <section className="bg-ink py-14 text-white md:py-16">
         <div className="container-page">
           <p className="mb-4 text-xs uppercase tracking-wide text-white/50">
