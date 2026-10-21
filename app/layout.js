@@ -31,6 +31,19 @@ export const metadata = {
   },
 };
 
+const organizationLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Công ty CP Công nghiệp Nhất Quán',
+  alternateName: 'Nhat Quan INS JSC',
+  url: 'https://nhatquan.vn',
+  telephone: '+84907811767',
+  email: 'hoai@nhatquan.vn',
+  areaServed: 'VN',
+  description:
+    'Nhà phân phối thiết bị phun sơn Devilbiss, Binks, Ransburg, Anest Iwata và máy chà nhám Mirka, Dynabrade tại Việt Nam.',
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="vi" className={`${inter.variable} ${oswald.variable}`}>
@@ -49,6 +62,10 @@ export default function RootLayout({ children }) {
         </Script>
         <Header />
         {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
+        />
         <Footer />
         <FloatingCta />
       </body>
