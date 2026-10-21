@@ -12,8 +12,7 @@ export default function Footer() {
             Công Ty Cổ Phần Công Nghiệp Nhất Quán
           </span>
           <p className="text-sm leading-relaxed">
-            Nhà phân phối thiết bị phun sơn (Devilbiss, Binks, Ransburg,
-            Anest Iwata) và máy chà nhám công nghiệp (Mirka, Dynabrade) tại Việt Nam.
+            Nhà phân phối chính thức Devilbiss, Binks, Ransburg; nhà phân phối chính hãng Anest Iwata, Mirka, Dynabrade tại Việt Nam.
           </p>
         </div>
         <div>
