@@ -25,7 +25,7 @@ const FEATURES = [
 ];
 
 const CHECKLIST = [
-  "Đại lý phân phối, có đầy đủ CO, CQ",
+  "Đại lý phân phối chính thức, có đầy đủ CO, CQ",
   "Đội ngũ kỹ thuật hỗ trợ tận nơi tại TP.HCM và toàn quốc",
   "Kho phụ kiện, linh kiện thay thế đầy đủ, giao nhanh",
   "Demo thực tế sản phẩm trước khi quyết định mua",
@@ -51,8 +51,7 @@ export default function HomePage() {
             </Reveal>
             <Reveal delay={0.16}>
               <p className="mb-8 max-w-lg text-base leading-relaxed text-white/70 md:text-lg">
-                Nhà phân phối thiết bị phun sơn Devilbiss, Binks, Ransburg,
-                Anest Iwata và máy chà nhám Mirka, Dynabrade tại Việt Nam — hơn 10 năm
+                Nhà phân phối chính thức Devilbiss, Binks, Ransburg; nhà phân phối chính hãng Anest Iwata, Mirka, Dynabrade tại Việt Nam — hơn 10 năm
                 đồng hành cùng garage ô tô, nhà máy sản xuất và xưởng nội thất.
               </p>
             </Reveal>
