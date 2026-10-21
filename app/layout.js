@@ -25,7 +25,7 @@ export const metadata = {
     template: "%s | Nhất Quán",
   },
   description:
-    "Công ty CP Công nghiệp Nhất Quán - nhà phân phối chính hãng súng phun sơn Devilbiss, Binks, Ransburg, Anest Iwata và máy chà nhám Mirka, Dynabrade tại Việt Nam.",
+    "Công ty CP Công nghiệp Nhất Quán - nhà phân phối súng phun sơn Devilbiss, Binks, Ransburg, Anest Iwata và máy chà nhám Mirka, Dynabrade tại Việt Nam.",
   icons: {
     icon: "/favicon.png",
   },
